@@ -1,32 +1,59 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view />
-  </div>
+  <VuePerfectScrollbar v-once :settings="settings" @ps-scroll-y="scrollHandle">
+    <v-app dark class="application ma-0 pa-0">
+      <nav-bar />
+      <v-main dark class="main-container">
+        <router-view />
+      </v-main>
+      <bottom-sheet />
+    </v-app>
+  </VuePerfectScrollbar>
 </template>
 
+<script>
+import NavBar from "./components/NavBar.vue";
+import BottomSheet from "./components/BottomSheet.vue";
+import VuePerfectScrollbar from 'vue-perfect-scrollbar'
+export default {
+  name: "App",
+
+  data: () => ({
+    snackbar: true,
+    settings: {
+      maxScrollbarLength: 200
+    }
+  }),
+  components: {
+    NavBar,
+    BottomSheet,
+    VuePerfectScrollbar
+  },
+  methods: {
+    Heyy() {
+      console.log("Clicked");
+    },
+    scrollHandle(evt) {
+      console.log(evt)
+    }
+  }
+};
+</script>
+
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+body {
+  background-color: #10151d;
 }
 
-#nav {
-  padding: 30px;
+.application {
+  background-color: #10151d;
 }
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
+.main-container {
+  background-color: #10151d;
+  z-index: 0;
 }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
+::v-deep .v-application--wrap {
+  max-width: default !important;
 }
 </style>
