@@ -10,13 +10,11 @@
         </div>
       </div>
 
-      <div class="section mb-5" id="education">
+      <div class="section mb-5" id="about">
         <div class="title my-5">
-          Education 📋 <span class="color-primary"><a href="#education">#</a></span>
+          About Me 👋 <span class="color-primary"><a href="#about">#</a></span>
         </div>
-        <div>
-          <Education />
-        </div>
+        <About />
       </div>
 
       <div class="section mb-5" id="experience">
@@ -54,6 +52,15 @@
         <Projects />
       </div>
 
+      <div class="section mb-5" id="education">
+        <div class="title my-5">
+          Education 📋 <span class="color-primary"><a href="#education">#</a></span>
+        </div>
+        <div>
+          <Education />
+        </div>
+      </div>
+
       <!-- <div class="section mb-5">
         <div class="title">
           Blog
@@ -73,6 +80,7 @@ import Achievements from '../components/Achievements.vue';
 import Cover from '../components/Cover.vue';
 import Skills from '../components/Skills.vue';
 import Testimonials from '../components/Testimonials.vue';
+import About from '../components/About.vue';
 export default {
   components: {
     Projects,
@@ -82,7 +90,8 @@ export default {
     Education,
     Cover,
     Skills,
-    Testimonials
+    Testimonials,
+    About
   }
 }
 </script>

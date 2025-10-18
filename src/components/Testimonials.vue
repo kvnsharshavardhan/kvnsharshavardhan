@@ -42,9 +42,27 @@ export default {
         },
         {
           name: "Naga Sai Rohith Devarasetty",
-          imageURL: "https://media.licdn.com/dms/image/D4D03AQF53PCkDVxHdg/profile-displayphoto-shrink_200_200/0/1691477032951?e=1701907200&v=beta&t=nBEuaCbdxAETv6GRZU_AIPlWMW5sjOIitMlS8xTNqhk",
+          imageURL: "",
           roleAndCompany: "Associate Product Engineer at DeltaX",
           recommendation: "I wholeheartedly recommend my colleague for their unwavering dedication to work, consistently prioritizing an optimized approach even when it demands extra effort. Additionally, their ability to effectively mentor juniors is truly commendable, creating a positive impact on our team's growth and success."
+        },
+        {
+          name: "Abdul Ahad",
+          imageURL: "",
+          roleAndCompany: "Product Engineer at DeltaX",
+          recommendation: "Working with Harsha has been a transformative experience in my early career. As a newcomer to the team, Harsha provided me with foundational knowledge and guidance. He assigned my first story and supported me through every stage, from speccing and development to testing and deployment. His expertise in SQL, databases, and C# is exceptional. Managing multiple microservices single-handedly, he was a key player in our team. His mentorship was invaluable, fostering both my technical and analytical skills."
+        },
+        {
+          name: "Tiru Tejaswi Nambula",
+          imageURL: "",
+          roleAndCompany: "Product Engineer at DeltaX",
+          recommendation: "I had the privilege of being mentored by Harsha, and I can attest to his exceptional coding skills and unwavering work ethic. As my mentor, He consistently went above and beyond to share his extensive knowledge of SQL, C#, Vue.js, and .NET frameworks. I wholeheartedly recommend him for his dedication and ability to deliver tasks on time"
+        },
+        {
+          name: "Pooja M",
+          imageURL: "",
+          roleAndCompany: "SDE II at Expedia",
+          recommendation: "I had the pleasure of working closely with Harsha at DeltaX. His exceptional problem-solving skills and attention to detail was instrumental in its success. I highly recommend Harsha for their dedication, professionalism, and ability to deliver results."
         }
       ]
     }
