@@ -9,7 +9,7 @@
           </span>
         </span>
         <div class="d-flex justify-center align-center" :class="{ 'ml-3': $vuetify.breakpoint.smAndDown }">
-          <a href="https://deltax.com/"  target="_blank">
+          <a href="https://zenoti.com/"  target="_blank">
             <img src="../assets/logos/Experience/zenoti_logo.jpeg" alt="" height="30px">
           </a>
           <span class="ml-2">ZENOTI</span>
