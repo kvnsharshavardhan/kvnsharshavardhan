@@ -45,18 +45,24 @@
 </template>
 
 <script>
+import dotNetLogo from "../assets/logos/dot-net.png";
+import cSharpLogo from "../assets/logos/CSharp.png";
+import sqlServerLogo from "../assets/logos/ms-sql-server.png";
+import vueLogo from "../assets/logos/vue.js.png";
+import jiraLogo from "../assets/logos/Common/jira.png";
+
 export default {
   data() {
     return {
       skills: [
         {
           name: ".Net",
-          url: "https://firebasestorage.googleapis.com/v0/b/kvnsharshavardhan.appspot.com/o/logos%2Fdotnet.png?alt=media&token=7e2be3d0-0f23-4246-a445-a3674225d59f",
+          url: dotNetLogo,
           category: "Backend"
         },
         {
           name: "C#",
-          url: "https://firebasestorage.googleapis.com/v0/b/kvnsharshavardhan.appspot.com/o/logos%2FCSharp.png?alt=media&token=67769645-0d7e-45d2-82f9-77b1dfb614b8",
+          url: cSharpLogo,
           category: "Backend"
         },
         {
@@ -71,7 +77,7 @@ export default {
         },
         {
           name: "Sql Server",
-          url: "https://firebasestorage.googleapis.com/v0/b/kvnsharshavardhan.appspot.com/o/logos%2Fsql-server.png?alt=media&token=118c004f-177d-4a1f-945f-9117a6ee74f8",
+          url: sqlServerLogo,
           category: "Database"
         },
         {
@@ -96,7 +102,7 @@ export default {
         },
         {
           name: "Vue.js",
-          url: "https://firebasestorage.googleapis.com/v0/b/kvnsharshavardhan.appspot.com/o/logos%2Fvue.js.png?alt=media&token=a5989bb4-f8a7-4d16-af61-fb44d0b5b329",
+          url: vueLogo,
           category: "Frontend"
         },
         {
@@ -116,7 +122,7 @@ export default {
         },
         {
           name: "Jira",
-          url: "https://firebasestorage.googleapis.com/v0/b/kvnsharshavardhan.appspot.com/o/logos%2Fjira.png?alt=media&token=75b6c5db-5e35-4440-9722-11e8910dba01",
+          url: jiraLogo,
           category: "Tools"
         },
         {
